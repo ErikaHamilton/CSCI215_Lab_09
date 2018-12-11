@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CSCI-215-WebsiteProgramming-2018/CSCI215_Lab_09#readme",
   "dependencies": {
-    "body-parser": "^1.18.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }

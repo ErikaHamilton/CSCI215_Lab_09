@@ -1,8 +1,7 @@
 # CSCI215_Lab_09
 Ajax and Node.js lab
 
-Name: _______________________________________
-
+Name: Erika Hamilton
 ## DUE: 4 Dec 2018 @ 11:59 pm
 
 ## Instructions:
@@ -31,7 +30,7 @@ app.listen(3000, function () {
 });
 ````
   * Type `node app.js` and verify server is running with your web browser. In the web browser, go to **localhost:3000**
-  
+
 ## Task 2. Set up routes:
  * Add the following code to your **app.js** file under line 2:
  ````
@@ -73,7 +72,7 @@ var path = require("path");
 </html>
 ````
  * Restart the node server. Test to ensure the **index.html** file is being displayed in the browser.
- 
+
 **Note: We will be using jquery for our AJAX calls**
 ## Task 3. Setup basic AJAX call:
 **Note: To reduce complexity, we are going to put our Javascript and jquery in a \<script\> tag**
@@ -105,12 +104,12 @@ var path = require("path");
 });
 ````
  * Restart the node server. Test form to ensure that first and last names are being written to server console and a test data alert pops up on web browser.
- 
+
 ## Task 4. Adjust JSON:
  * Adjust the payload that is returned from /myPost route to return a JSON object that has key of fullname and the value is a concatanation of the firstname and lastname values that come in with the request.
  * Ajust the AJAX callback function to populate the **myDiv** tag with the fullname rather than alert pop up.
- 
- 
+
+
 ## Task 5. Incorporate the form from Lab 6:
  * In order to return files along with the HTML create a directory called **public** and move **index.html** into it.
  * In **public** directory, create a file called **execute.js** and cut/paste your Javascript code into it.
